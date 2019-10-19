@@ -1,0 +1,66 @@
+package com.waston.seckill.VO;
+
+import java.io.Serializable;
+
+/**
+ * @Description:
+ * @Author: Waston
+ * @Date: 2019/10/19 19:27
+ */
+public class UserVO implements Serializable {
+
+    private static final long serialVersionUID = 3748775208519383015L;
+
+    private String username;
+
+
+    private String password;
+
+
+    private String dbflag;
+
+
+    private long id;
+
+    private String repassword;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getRepassword() {
+        return repassword;
+    }
+
+    public void setRepassword(String repassword) {
+        this.repassword = repassword;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getDbflag() {
+        return dbflag;
+    }
+
+    public void setDbflag(String dbflag) {
+        this.dbflag = dbflag;
+    }
+}
